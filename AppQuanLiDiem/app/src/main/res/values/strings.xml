@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AppQuanLiDiem</string>
+    <string-array name="Spinner_items">
+        <item>Học Kì 1(Năm 1)</item>
+        <item>Học Kì 2(Năm 1)</item>
+        <item>Học Kì 3(Năm 1)</item>
+        <item>Học Kì 1(Năm 2) </item>
+        <item>Học Kì 2(Năm 2)</item>
+        <item>Học Kì 3(Năm 2)</item>
+    </string-array>
+</resources>
