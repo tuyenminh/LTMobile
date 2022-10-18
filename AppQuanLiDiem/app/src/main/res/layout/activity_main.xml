@@ -19,8 +19,8 @@
             android:layout_weight="2">
 
             <!--            <RelativeLayout-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content">-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content">-->
 
             <TextView
                 android:layout_width="wrap_content"
@@ -47,7 +47,9 @@
                 android:layout_marginEnd="113dp"
                 android:layout_marginBottom="7dp"
                 android:entries="@array/Spinner_items"
-                android:textAlignment="center">
+                android:textAlignment="center"
+                android:backgroundTint="@color/colorTransparent"
+                >
 
             </Spinner>
 
