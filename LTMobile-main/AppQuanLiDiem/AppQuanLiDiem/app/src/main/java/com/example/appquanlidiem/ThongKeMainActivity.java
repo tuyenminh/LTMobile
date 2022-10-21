@@ -61,13 +61,13 @@ public class ThongKeMainActivity extends AppCompatActivity {
 
         BarChart barChart = findViewById(R.id.barChart);
         ArrayList<BarEntry> visitors = new ArrayList<>();
-        visitors.add(new BarEntry(2014, 420));
-        visitors.add(new BarEntry(2015, 450));
-        visitors.add(new BarEntry(2016, 520));
-        visitors.add(new BarEntry(2017, 620));
-        visitors.add(new BarEntry(2018, 540));
-        visitors.add(new BarEntry(2019, 720));
-        visitors.add(new BarEntry(2020, 920));
+        visitors.add(new BarEntry(4, 175));
+        visitors.add(new BarEntry(5, 188));
+        visitors.add(new BarEntry(6, 180));
+        visitors.add(new BarEntry(7, 205));
+        visitors.add(new BarEntry(8, 252));
+        visitors.add(new BarEntry(9, 263));
+        visitors.add(new BarEntry(10, 274));
 
 
         BarDataSet barDataSet = new BarDataSet(visitors, "Định danh");

@@ -153,7 +153,7 @@ public class ThoiKhoaBieuMainActivity extends AppCompatActivity {
 
         int week = Utils.getWeekOfDay();
         TextView weekTv = findViewById(weekTextView[week - 1]);
-        weekTv.setBackground(ContextCompat.getDrawable(this, R.color.day_of_week_color));
+        weekTv.setBackground(ContextCompat.getDrawable(this, R.color.bg_color_gray));
     }
 
 
