@@ -1,2 +1,0 @@
-# LTMobile
-AppQuanLiTienDoHT

@@ -30,8 +30,8 @@
     <color name="colorLightGray">#eaeff5</color>
     <color name="text_view_color">#0C0B0B</color>
     <color name="background_color_white">#F0F0F0</color>
-    <color name="bg_color_gray">#777878</color>
-    <color name="colorTransparent">#D0D0D0</color>
+    <color name="bg_color_gray">#D0D0D0</color>
+    <color name="colorTransparent">#777878</color>
 
     <color name="item_1">#CCFF5252</color>
     <color name="item_2">#CC536DFE</color>

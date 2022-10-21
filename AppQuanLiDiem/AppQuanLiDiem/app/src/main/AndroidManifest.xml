@@ -39,9 +39,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- Thong kê -->
-
         <activity
             android:name=".ThongKeMainActivity"
             android:exported="true">
@@ -52,7 +49,6 @@
             </intent-filter>
         </activity>
 
-        <!-- Thong kê -->
 
         <!-- TKB -->
 

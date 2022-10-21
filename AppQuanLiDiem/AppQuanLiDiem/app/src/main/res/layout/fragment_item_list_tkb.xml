@@ -8,9 +8,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/list"
+    android:name="com.potato.timetable.ui.login.ItemFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layoutManager="LinearLayoutManager"
     tools:context=".ui_tkb.login.ItemFragment"
-    tools:listitem="@layout/fragment_item_tkb"
-    />
+    tools:listitem="@layout/fragment_item_tkb" />

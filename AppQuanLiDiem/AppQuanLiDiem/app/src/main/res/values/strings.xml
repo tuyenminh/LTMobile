@@ -1,6 +1,8 @@
 <resources>
-    <string name="app_name">AppQuanLiDiem</string>
-
+    <string name="app_name">QUẢN LÝ TIẾN ĐỘ HỌC TẬP</string>
+    <string name="Select1">
+        <u>Chọn môn</u>.
+    </string>
     <string-array name="Spinner_items">
         <item>Học Kì 1(Năm 1)</item>
         <item>Học Kì 2(Năm 1)</item>
@@ -9,7 +11,26 @@
         <item>Học Kì 2(Năm 2)</item>
         <item>Học Kì 3(Năm 2)</item>
     </string-array>
-
+<!--    Chọn môn học-->
+    <string-array name="choice_items">
+        <item>Lập trình ứng dựng</item>
+        <item>Cơ sở dữ liệu phân tán</item>
+        <item>Giao diện người máy</item>
+        <item>Lập trình thiết bị di động</item>
+        <item>Mạng máy tính</item>
+        <item>Kiến trúc máy tính</item>
+    </string-array>
+<!--    Chọn kết quả cải thiện điểm-->
+    <string-array name="choice_result">
+        <item>A</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>C+</item>
+        <item>C</item>
+        <item>D+</item>
+        <item>D</item>
+        <item>F</item>
+    </string-array>
 <!-- Thống kê -->
 
     <string-array name="Spinner_mp">
