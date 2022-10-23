@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- TKB -->
+<!-- TKB -->
+<!-- TKB -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mp_menu_set_week"
+        android:title="@string/menu_set_current_week" />
+    <item
+        android:id="@+id/mp_menu_append_class"
+        android:title="@string/menu_append_class" />
+
+    <item
+        android:id="@+id/mp_menu_set_time"
+        android:title="@string/menu_set_time"/>
+
+
+</menu>
