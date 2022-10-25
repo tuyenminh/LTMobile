@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="stan_60">60dp</dimen>
+    <dimen name="stan_105">105dp</dimen>
+    <dimen name="stan_155">155dp</dimen>
+</resources>

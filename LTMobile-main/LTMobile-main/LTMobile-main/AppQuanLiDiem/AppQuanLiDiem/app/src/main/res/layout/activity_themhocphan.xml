@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout"
+    android:background="@drawable/backdound_app"
+    android:orientation="vertical"
+    tools:context=".ThemHocPhanActivity">
+    <include layout="@layout/customtoolbarthemhocphan"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutThemHocPhan"
+        android:layout_marginTop="30dp"
+        android:padding="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/backdround_layout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:textSize="30dp"
+            android:textColor="#0F0F0F"
+            android:layout_marginBottom="40dp"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THÊM HỌC PHẦN" />
+        <EditText
+            android:id="@+id/edtMaHocPhan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColorHint="@color/black2"
+            android:background="@drawable/backdroung_edt"
+            android:scrollHorizontally="true"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPersonName"
+            android:hint="Nhập mã học phần" />
+
+        <EditText
+            android:id="@+id/edtTenHocPhan"
+            android:background="@drawable/backdroung_edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColorHint="@color/black2"
+            android:scrollHorizontally="true"
+            android:padding="12dp"
+            android:inputType="textPersonName"
+            android:hint="Nhập tên học phần" />
+
+        <EditText
+            android:id="@+id/edtTinChi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColorHint="@color/black2"
+            android:background="@drawable/backdroung_edt"
+            android:scrollHorizontally="true"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPersonName"
+            android:hint="Nhập tín chỉ" />
+
+        <EditText
+            android:id="@+id/edtMucTieu"
+            android:background="@drawable/backdroung_edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColorHint="@color/black2"
+            android:scrollHorizontally="true"
+            android:padding="12dp"
+            android:inputType="textPersonName"
+            android:hint="Nhập mục tiêu" />
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginBottom="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnThemHocPhan"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:background="@drawable/border"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lưu" />
+
+            <Button
+                android:id="@+id/btnXemHocPhan"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:background="@drawable/border"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Xem học phần" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
