@@ -1,0 +1,105 @@
+com/example/appquanlidiem/CapNhatDiemMainActivity.java
+ com.example.appquanlidiem.CapNhatDiemMainActivity
+com/example/appquanlidiem/databinding/FragmentItemTkbBinding.java
+ com.example.appquanlidiem.databinding.FragmentItemTkbBinding
+com/example/appquanlidiem/HocPhanMainActivity.java
+ com.example.appquanlidiem.HocPhanMainActivity
+com/example/appquanlidiem/ui_tkb/login/MyItemRecyclerViewAdapter.java
+ com.example.appquanlidiem.ui_tkb.login.MyItemRecyclerViewAdapter
+ com.example.appquanlidiem.ui_tkb.login.MyItemRecyclerViewAdapter$ViewHolder
+com/example/appquanlidiem/BuildConfig.java
+ com.example.appquanlidiem.BuildConfig
+com/example/appquanlidiem/SinhVienData.java
+ com.example.appquanlidiem.SinhVienData
+com/example/appquanlidiem/ThongKeMainActivity.java
+ com.example.appquanlidiem.ThongKeMainActivity
+com/example/appquanlidiem/databinding/FragmentItemListTkbBinding.java
+ com.example.appquanlidiem.databinding.FragmentItemListTkbBinding
+com/example/appquanlidiem/util_tkb/FileUtils.java
+ com.example.appquanlidiem.util_tkb.FileUtils
+com/example/appquanlidiem/databinding/ActivityHocphanBinding.java
+ com.example.appquanlidiem.databinding.ActivityHocphanBinding
+com/example/appquanlidiem/util_tkb/CalendarReminderUtils.java
+ com.example.appquanlidiem.util_tkb.CalendarReminderUtils
+com/example/appquanlidiem/databinding/ActivityThongtinBinding.java
+ com.example.appquanlidiem.databinding.ActivityThongtinBinding
+com/example/appquanlidiem/databinding/ItemTimeTkbBinding.java
+ com.example.appquanlidiem.databinding.ItemTimeTkbBinding
+com/example/appquanlidiem/DiemCaiThienMainActivity.java
+ com.example.appquanlidiem.DiemCaiThienMainActivity
+com/example/appquanlidiem/ThongTinMainActivity.java
+ com.example.appquanlidiem.ThongTinMainActivity
+com/example/appquanlidiem/util_tkb/ExcelUtils.java
+ com.example.appquanlidiem.util_tkb.ExcelUtils
+ com.example.appquanlidiem.util_tkb.ExcelUtils$HandleResult
+com/example/appquanlidiem/databinding/WeekOfTermCheckboxTkbBinding.java
+ com.example.appquanlidiem.databinding.WeekOfTermCheckboxTkbBinding
+com/example/appquanlidiem/ui_tkb/settime/SetTimeActivity.java
+ com.example.appquanlidiem.ui_tkb.settime.SetTimeActivity
+ com.example.appquanlidiem.ui_tkb.settime.SetTimeActivity$1
+ com.example.appquanlidiem.ui_tkb.settime.SetTimeActivity$TimeAdapter
+ com.example.appquanlidiem.ui_tkb.settime.SetTimeActivity$TimeAdapter$ViewHolder
+com/example/appquanlidiem/ui_tkb/editcourse/WeekOfTermSelectDialog.java
+ com.example.appquanlidiem.ui_tkb.editcourse.WeekOfTermSelectDialog
+ com.example.appquanlidiem.ui_tkb.editcourse.WeekOfTermSelectDialog$DialogAdapter
+ com.example.appquanlidiem.ui_tkb.editcourse.WeekOfTermSelectDialog$DialogAdapter$1
+ com.example.appquanlidiem.ui_tkb.editcourse.WeekOfTermSelectDialog$DialogAdapter$ViewHolder
+com/example/appquanlidiem/databinding/DialogttLayoutBinding.java
+ com.example.appquanlidiem.databinding.DialogttLayoutBinding
+com/example/appquanlidiem/MainActivity.java
+ com.example.appquanlidiem.MainActivity
+ com.example.appquanlidiem.MainActivity$1
+ com.example.appquanlidiem.MainActivity$2
+ com.example.appquanlidiem.MainActivity$3
+com/example/appquanlidiem/util_tkb/Config.java
+ com.example.appquanlidiem.util_tkb.Config
+com/example/appquanlidiem/colleges_tkb/base/College.java
+ com.example.appquanlidiem.colleges_tkb.base.College
+com/example/appquanlidiem/databinding/ActivityThongkeBinding.java
+ com.example.appquanlidiem.databinding.ActivityThongkeBinding
+com/example/appquanlidiem/databinding/ActivityCapnhatdiemBinding.java
+ com.example.appquanlidiem.databinding.ActivityCapnhatdiemBinding
+com/example/appquanlidiem/databinding/ActivityDiemdukienBinding.java
+ com.example.appquanlidiem.databinding.ActivityDiemdukienBinding
+com/example/appquanlidiem/databinding/ActivityMainBinding.java
+ com.example.appquanlidiem.databinding.ActivityMainBinding
+com/example/appquanlidiem/databinding/DialogSelectWeekTkbBinding.java
+ com.example.appquanlidiem.databinding.DialogSelectWeekTkbBinding
+com/example/appquanlidiem/bean_tkb/Send.java
+ com.example.appquanlidiem.bean_tkb.Send
+com/example/appquanlidiem/DiemDuKienMainActivity.java
+ com.example.appquanlidiem.DiemDuKienMainActivity
+com/example/appquanlidiem/ui_tkb/coursedetails/CourseDetailsActivity.java
+ com.example.appquanlidiem.ui_tkb.coursedetails.CourseDetailsActivity
+ com.example.appquanlidiem.ui_tkb.coursedetails.CourseDetailsActivity$1
+ com.example.appquanlidiem.ui_tkb.coursedetails.CourseDetailsActivity$2
+ com.example.appquanlidiem.ui_tkb.coursedetails.CourseDetailsActivity$3
+com/example/appquanlidiem/ThoiKhoaBieuMainActivity.java
+ com.example.appquanlidiem.ThoiKhoaBieuMainActivity
+ com.example.appquanlidiem.ThoiKhoaBieuMainActivity$1
+com/example/appquanlidiem/ui_tkb/login/ItemFragment.java
+ com.example.appquanlidiem.ui_tkb.login.ItemFragment
+ com.example.appquanlidiem.ui_tkb.login.ItemFragment$OnListFragmentInteractionListener
+com/example/appquanlidiem/databinding/ActivityEditTkbBinding.java
+ com.example.appquanlidiem.databinding.ActivityEditTkbBinding
+com/example/appquanlidiem/bean_tkb/Course.java
+ com.example.appquanlidiem.bean_tkb.Course
+com/example/appquanlidiem/databinding/ActivityThoikhoabieuBinding.java
+ com.example.appquanlidiem.databinding.ActivityThoikhoabieuBinding
+com/example/appquanlidiem/util_tkb/OkHttpUtils.java
+ com.example.appquanlidiem.util_tkb.OkHttpUtils
+ com.example.appquanlidiem.util_tkb.OkHttpUtils$Inner
+com/example/appquanlidiem/bean_tkb/Time.java
+ com.example.appquanlidiem.bean_tkb.Time
+com/example/appquanlidiem/SinhVien.java
+ com.example.appquanlidiem.SinhVien
+com/example/appquanlidiem/databinding/ActivitySetTimeTkbBinding.java
+ com.example.appquanlidiem.databinding.ActivitySetTimeTkbBinding
+com/example/appquanlidiem/MyApplication.java
+ com.example.appquanlidiem.MyApplication
+com/example/appquanlidiem/ui_tkb/editcourse/EditActivity.java
+ com.example.appquanlidiem.ui_tkb.editcourse.EditActivity
+com/example/appquanlidiem/databinding/ActivityDiemcaithienBinding.java
+ com.example.appquanlidiem.databinding.ActivityDiemcaithienBinding
+com/example/appquanlidiem/databinding/ActivityCourseDetailsTkbBinding.java
+ com.example.appquanlidiem.databinding.ActivityCourseDetailsTkbBinding

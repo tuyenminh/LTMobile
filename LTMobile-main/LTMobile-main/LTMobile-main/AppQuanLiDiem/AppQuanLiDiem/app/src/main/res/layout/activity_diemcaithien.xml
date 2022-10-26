@@ -68,8 +68,8 @@
             android:id="@+id/mt_tbmon"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="40dp"
+            android:text="2.0"
             android:gravity="center"
-            android:text="B(7.0)"
             android:textColor="@color/item_1"
             android:textStyle="bold">
         </EditText>

@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "com.example.appquanlidiem.app-mergeDebugResources-4:/layout/activity_thoikhoabieu.xml",
+        "source": "com.example.appquanlidiem.app-main-7:/layout/activity_thoikhoabieu.xml"
+    },
+    {
+        "merged": "com.example.appquanlidiem.app-mergeDebugResources-4:/layout/activity_set_time_tkb.xml",
+        "source": "com.example.appquanlidiem.app-main-7:/layout/activity_set_time_tkb.xml"
+    },
+    {
+        "merged": "com.example.appquanlidiem.app-mergeDebugResources-4:/layout/item_time_tkb.xml",
+        "source": "com.example.appquanlidiem.app-main-7:/layout/item_time_tkb.xml"
+    },
+    {
+        "merged": "com.example.appquanlidiem.app-mergeDebugResources-4:/layout/week_of_term_checkbox_tkb.xml",
+        "source": "com.example.appquanlidiem.app-main-7:/layout/week_of_term_checkbox_tkb.xml"
+    },
+    {
+        "merged": "com.example.appquanlidiem.app-mergeDebugResources-4:/layout/activity_diemdukien.xml",
+        "source": "com.example.appquanlidiem.app-main-7:/layout/activity_diemdukien.xml"
+    },
+    {
+        "merged": "com.example.appquanlidiem.app-mergeDebugResources-4:/layout/dialogtt_layout.xml",
+        "source": "com.example.appquanlidiem.app-main-7:/layout/dialogtt_layout.xml"
+    },
+    {
+        "merged": "com.example.appquanlidiem.app-mergeDebugResources-4:/layout/activity_hocphan.xml",
+        "source": "com.example.appquanlidiem.app-main-7:/layout/activity_hocphan.xml"
+    },
+    {
+        "merged": "com.example.appquanlidiem.app-mergeDebugResources-4:/layout/activity_main.xml",
+        "source": "com.example.appquanlidiem.app-main-7:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.appquanlidiem.app-mergeDebugResources-4:/layout/fragment_item_list_tkb.xml",
+        "source": "com.example.appquanlidiem.app-main-7:/layout/fragment_item_list_tkb.xml"
+    },
+    {
+        "merged": "com.example.appquanlidiem.app-mergeDebugResources-4:/layout/activity_capnhatdiem.xml",
+        "source": "com.example.appquanlidiem.app-main-7:/layout/activity_capnhatdiem.xml"
+    },
+    {
+        "merged": "com.example.appquanlidiem.app-mergeDebugResources-4:/layout/activity_thongtin.xml",
+        "source": "com.example.appquanlidiem.app-main-7:/layout/activity_thongtin.xml"
+    },
+    {
+        "merged": "com.example.appquanlidiem.app-mergeDebugResources-4:/layout/fragment_item_tkb.xml",
+        "source": "com.example.appquanlidiem.app-main-7:/layout/fragment_item_tkb.xml"
+    },
+    {
+        "merged": "com.example.appquanlidiem.app-mergeDebugResources-4:/layout/activity_thongke.xml",
+        "source": "com.example.appquanlidiem.app-main-7:/layout/activity_thongke.xml"
+    },
+    {
+        "merged": "com.example.appquanlidiem.app-mergeDebugResources-4:/layout/dialog_select_week_tkb.xml",
+        "source": "com.example.appquanlidiem.app-main-7:/layout/dialog_select_week_tkb.xml"
+    },
+    {
+        "merged": "com.example.appquanlidiem.app-mergeDebugResources-4:/layout/activity_course_details_tkb.xml",
+        "source": "com.example.appquanlidiem.app-main-7:/layout/activity_course_details_tkb.xml"
+    },
+    {
+        "merged": "com.example.appquanlidiem.app-mergeDebugResources-4:/layout/activity_edit_tkb.xml",
+        "source": "com.example.appquanlidiem.app-main-7:/layout/activity_edit_tkb.xml"
+    },
+    {
+        "merged": "com.example.appquanlidiem.app-mergeDebugResources-4:/layout/activity_diemcaithien.xml",
+        "source": "com.example.appquanlidiem.app-main-7:/layout/activity_diemcaithien.xml"
+    }
+]
