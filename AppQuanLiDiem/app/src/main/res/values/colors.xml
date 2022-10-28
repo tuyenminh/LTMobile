@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+<!-- Học Phần -->
+
+
+    <color name="black2">#393939</color>
+    <color name="colorAccent1">#515151</color>
+    <color name="colorPrimary1">#008577</color>
+    <color name="colorPrimaryDark1">#00574B</color>
+    <color name="pink">#FF478B</color>
+    <color name="red">#F30505</color>
+    <color name="blue">#0967B1</color>
+    <color name="green">#07FA11</color>
+
+    <color name="orange">#FFC107</color>
+    <color name="grey2">#A5A5A5</color>
+    <color name="grey">#E6E6E6</color>
+
+    <color name="colorPurpleT">#64983cff</color>
+    <color name="colorBlue">#8DD6FF</color>
+    <color name="colorBlueT">#642fb4ff</color>
+
+<!-- TKB -->
+
+    <color name="colorPrimary">#FF018786</color>
+
+    <color name="colorPrimaryDark">#1565C0</color>
+    <color name="colorAccent">#2962FF</color>
+
+    <color name="colorOrange">#ffc450</color>
+    <color name="colorTitle">#00BFFF</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGray">#D3D3D3</color>
+    <color name="colorLightBlue">#87CEFA</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorTomato">#ff9393</color>
+    <color name="colorGreen">#33CCCC</color>
+    <color name="colorLightGreen">#70eb55</color>
+    <color name="colorCyan">#76eaea</color>
+    <color name="colorPurple">#d58dfb</color>
+    <color name="colorLightGray">#eaeff5</color>
+    <color name="text_view_color">#0C0B0B</color>
+    <color name="background_color_white">#F0F0F0</color>
+    <color name="bg_color_gray">#D0D0D0</color>
+    <color name="colorTransparent">#777878</color>
+
+    <color name="item_1">#CCFF5252</color>
+    <color name="item_2">#CC536DFE</color>
+    <color name="item_3">#CCE040FB</color>
+    <color name="item_4">#CCFF6E40</color>
+    <color name="item_5">#CCFF4081</color>
+    <color name="item_6">#CCFFAB40</color>
+    <color name="item_7">#CC7C4DFF</color>
+    <color name="item_gray">#ff9393</color>
+
+    <color name="header_text_color">#0C0B0B</color>
+
+    <color name="header_week_color">#CCD3D3D3</color>
+    <color name="header_class_color">#CCD0D0D0</color>
+
+    <color name="day_of_week_color">#90CAF9</color>
+</resources>
