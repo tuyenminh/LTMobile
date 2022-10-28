@@ -110,9 +110,7 @@ public class ThongKeMainActivity extends AppCompatActivity {
 
       for (int i = 0; i < db.queryXData().size(); i++){
             xVals.add(xdata.get(i));
-          yVals.add(new BarEntry(2, 4));
-          yVals.add(new BarEntry(3, 7));
-          yVals.add(new BarEntry(4, 5));
+
           yVals.add(new BarEntry(5, 8));
           yVals.add(new BarEntry(6, 10));
       }

@@ -14,11 +14,11 @@ if (versionPropsFile.exists()) {
 }
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 32
     defaultConfig {
         applicationId "com.example.appquanlidiem"
         minSdkVersion 21
-        targetSdkVersion 30
+        targetSdkVersion 32
         versionCode versionProps['versionCode'].toInteger()
         versionName versionProps['versionName']
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -59,6 +59,7 @@ android {
         sourceCompatibility = 1.8
         targetCompatibility = 1.8
     }
+    namespace 'com.example.appquanlidiem'
 //    android.applicationVariants.all {
 //        variant ->
 //            variant.outputs.all {
@@ -110,8 +111,12 @@ dependencies {
     implementation 'com.github.franmontiel:PersistentCookieJar:v1.0.1'
     implementation 'cn.yipianfengye.android:zxing-library:2.2'
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.5'
-    // Thư viện HP
+
+// Thư viện HP
+
     implementation 'de.hdodenhof:circleimageview:3.1.0'
+
 // Thư viện barchart
+
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
 }
