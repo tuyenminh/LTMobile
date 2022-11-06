@@ -14,7 +14,7 @@ object Utils {
     private const val SINGLE_DOUBLE_WEEK = 0
     private const val SINGLE_WEEK = 1
     private const val DOUBLE_WEEK = 2
-    private val WEEK_OPTIONS = arrayOf ("Tuần", "Một tuần", "Hai tuần")
+    private val WEEK_OPTIONS = arrayOf ("Tuần", "Tuần", "Tuần")
     @JvmStatic
     fun setPATH(PATH: String?) {
         Utils.PATH = PATH
@@ -57,12 +57,10 @@ object Utils {
     @JvmStatic
     fun getFormatStringFromWeekOfTerm(weekOfTerm: Int): String {
         if (!isWeekOfTermValid(weekOfTerm)) {
-            return "Vui lòng chọn một tuần"
+            return "Vui lòng chọn số tuần"
         }
-        return getStringFromWeekOfTerm(weekOfTerm) +
-                " [" +
-                WEEK_OPTIONS[getWeekOptionFromWeekOfTerm(weekOfTerm)] +
-                "]"
+        return  WEEK_OPTIONS[getWeekOptionFromWeekOfTerm(weekOfTerm)] +
+                " " + getStringFromWeekOfTerm(weekOfTerm)
     }
 
     @JvmStatic

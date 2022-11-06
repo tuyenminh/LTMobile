@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!--Thời Khóa Biểu-->
-<!--Thời Khóa Biểu-->
-<!--Thời Khóa Biểu-->
-
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backdound_app"
     tools:context=".tkb.editcourse.EditActivity">
 
     <ImageView
@@ -22,6 +19,7 @@
         android:layout_height="match_parent"
         android:focusable="true"
         android:focusableInTouchMode="true"
+        android:paddingTop="50dp"
         android:orientation="vertical">
 
         <androidx.cardview.widget.CardView
@@ -40,7 +38,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
-                android:background="@color/colorPrimary"
+                android:background="@drawable/backdround_layout"
                 android:orientation="horizontal"
                 android:padding="20dp">
 
@@ -49,7 +47,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="15dp"
                     android:textStyle="bold"
-                    android:textColor="@color/colorWhite"
+                    android:textColor="@color/black"
                     android:text="@string/course_name"
                     android:textSize="@dimen/edit_text_size" />
 
@@ -58,7 +56,7 @@
                     android:layout_width="273dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:textColor="@color/colorWhite"
+                    android:textColor="@color/black"
                     android:background="@null"
                     android:hint=""
                     android:inputType="text"
@@ -81,7 +79,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:background="@color/colorPrimary"
+                android:background="@drawable/backdround_layout"
                 android:padding="20dp">
 
                 <TextView
@@ -91,7 +89,7 @@
                     android:layout_marginTop="8dp"
                     android:background="@drawable/selector_text_view"
                     android:padding="8dp"
-                    android:textColor="@color/colorWhite"
+                    android:textColor="@color/black"
                     android:textSize="@dimen/edit_text_size"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="1.0"
@@ -103,7 +101,7 @@
                     android:id="@+id/mp_textView2"
                     android:layout_width="wrap_content"
                     android:textStyle="bold"
-                    android:textColor="@color/colorWhite"
+                    android:textColor="@color/black"
                     android:layout_height="wrap_content"
                     android:text="@string/classroom"
                     android:textSize="@dimen/edit_text_size"
@@ -120,7 +118,7 @@
                     android:hint="@string/edit_text_hint"
                     android:inputType="text"
                     android:padding="8dp"
-                    android:textColor="@color/colorWhite"
+                    android:textColor="@color/black"
                     android:textSize="@dimen/edit_text_size"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="1.0"
@@ -143,7 +141,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
-                    android:textColor="@color/colorWhite"
+                    android:textColor="@color/black"
                     android:text="@string/week_of_term"
                     android:textSize="@dimen/edit_text_size"
                     app:layout_constraintBottom_toBottomOf="@+id/mp_tv_week_of_term"
@@ -166,7 +164,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
-                    android:textColor="@color/colorWhite"
+                    android:textColor="@color/black"
                     android:text="@string/classLength"
                     android:textSize="@dimen/edit_text_size"
                     app:layout_constraintBottom_toBottomOf="@+id/mp_tv_class_num"
@@ -188,7 +186,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
-                    android:textColor="@color/colorWhite"
+                    android:textColor="@color/black"
                     android:text="@string/teacher"
                     android:textSize="@dimen/edit_text_size"
                     app:layout_constraintBottom_toBottomOf="@+id/mp_ghi_chu"
@@ -206,7 +204,7 @@
                     android:hint="@string/edit_text_hint"
                     android:inputType="text"
                     android:padding="8dp"
-                    android:textColor="@color/colorWhite"
+                    android:textColor="@color/black"
                     android:textSize="@dimen/edit_text_size"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -223,7 +221,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/selector_text_view"
                     android:padding="8dp"
-                    android:textColor="@color/colorWhite"
+                    android:textColor="@color/black"
                     android:textSize="@dimen/edit_text_size"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="1.0"

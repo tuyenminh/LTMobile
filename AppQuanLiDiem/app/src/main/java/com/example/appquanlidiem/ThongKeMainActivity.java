@@ -1,12 +1,14 @@
 package com.example.appquanlidiem;
 
 import androidx.appcompat.app.AppCompatActivity;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 import com.github.mikephil.charting.charts.BarChart;
 import com.github.mikephil.charting.data.BarData;
@@ -26,6 +28,22 @@ import java.text.SimpleDateFormat;
 
 public class ThongKeMainActivity extends AppCompatActivity {
 
+
+    private int mon1 = 7;
+    private int mon2 = 7;
+    private int mon3 = 7;
+    private int mon4 = 7;
+    private int mon5 = 7;
+
+    private int tcmon1 = 3;
+    private int tcmon2 = 3;
+    private int tcmon3 = 3;
+    private int tcmon4 = 3;
+    private int tcmon5 = 3;
+    private int tongtc = 0;
+
+    EditText kttbc, kttbm;
+
     private BarChart barChart;
     private Button button;
     private EditText editText;
@@ -36,14 +54,53 @@ public class ThongKeMainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_thongke);
+
+        // Tinh diem tb
+
+        kttbc = (EditText) findViewById(R.id.mp_kqtbc);
+        kttbm = (EditText) findViewById(R.id.mp_kqtbm);
+
+        // Barchart
+
         barChart = (BarChart) findViewById(R.id.barchart);
         button = (Button) findViewById(R.id.button);
         editText = (EditText) findViewById(R.id.editText);
+
          addDataToGraph();
         barChart.invalidate();
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                // Tinh tb
+
+                String mdiem1;
+                mdiem1 = editText.getText().toString();
+                Double d1, tb1, tb2;
+                d1 = Double.parseDouble(mdiem1);
+                tongtc = 3 + tcmon1 + tcmon2 + tcmon3 + tcmon4;
+                tb2= ((d1*3)+ (mon1*tcmon1) + (mon2*tcmon2) + (mon3*tcmon3) + (mon4*tcmon4))/tongtc;
+                if(tb2 < 4) {
+                    kttbc.setText(tb2 + " ( F )");
+                }else if ( tb2 > 4 && tb2 < 4.9) {
+                    kttbc.setText(tb2 + " ( D )");
+                }else if ( tb2 > 4.8 && tb2 < 5.6) {
+                    kttbc.setText(tb2 + " ( D+ )");
+                }else if (tb2 > 5.4 && tb2 < 6.5){
+                    kttbc.setText(tb2 + " ( C )");
+                }else if (tb2 > 6.4 && tb2 < 7.0){
+                    kttbc.setText(tb2 + " ( C+ )");
+                }else if (tb2 > 6.9 && tb2 < 8.0){
+                    kttbc.setText(tb2 + " ( B )");
+                }else if (tb2 > 7.9 && tb2 < 9.0){
+                    kttbc.setText(tb2 + " ( B+ )");
+                }else if (tb2 > 8.9 && tb2 < 11){
+                    kttbc.setText(tb2 + " ( A )");
+                }
+                tb1 = d1;
+                kttbm.setText(String.valueOf(tb1));
+
+                // Barchart
                 SaveToDatabase();
             }
         });

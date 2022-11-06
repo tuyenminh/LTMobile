@@ -35,6 +35,7 @@
 <!--    HP-->
     <string name="open">open</string>
     <string name="close">close</string>
+
 <!-- Thống kê -->
 
     <string-array name="Spinner_mp">

@@ -280,14 +280,14 @@ public class EditActivity extends AppCompatActivity {
         int defaultOptions2 = mClassStart - 1;
         int defaultOptions3 = mClassEnd - 1;
         pvOptions = new OptionsPickerBuilder(this, (options1, options2, options3, v) -> {
-            String str12 = sWeekItems.get(options1) + " " + (options2 + 1) + " - " + (options3 + 1) + " Ngày ";
+            String str12 = sWeekItems.get(options1) + " ( tiết " + (options2 + 1) + " đến tiết " + (options3 + 1) + " )";
             mClassNumTextView.setText(str12);
             mDayOfWeek = options1 + 1;
             mClassStart = options2 + 1;
             mClassEnd = options3 + 1;
 
         }).setOptionsSelectChangeListener((options1, options2, options3) -> {
-            String str1 = sWeekItems.get(options1) + " " + (options2 + 1) + " - " + (options3 + 1) + " Ngày ";
+            String str1 = sWeekItems.get(options1) + " ( tiết " + (options2 + 1) + " đến tiết " + (options3 + 1) + " )";
 
             pvOptions.setTitleText(str1);
             if (options3 < options2) {
@@ -298,7 +298,7 @@ public class EditActivity extends AppCompatActivity {
         if (pvOptions != null) {
             pvOptions.setNPicker(sWeekItems, sStartItems, sEndItems);
             pvOptions.setSelectOptions(defaultOptions1, defaultOptions2, defaultOptions3);
-            pvOptions.setTitleText(" Chọn ngày ");
+            pvOptions.setTitleText(" Chọn tiết học ");
             pvOptions.show();
         }
 
