@@ -2,12 +2,10 @@
 package com.example.appquanlidiem;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
@@ -22,10 +20,9 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.example.appquanlidiem.adapter.LopAdapter;
-import com.example.appquanlidiem.dao.LopDao;
-import com.example.appquanlidiem.model.Lop;
+import com.example.appquanlidiem.duc_adapter_HP.LopAdapter;
+import com.example.appquanlidiem.duc_dao_HP.LopDao;
+import com.example.appquanlidiem.duc_model_HP.Lop;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
@@ -46,7 +43,7 @@ public class HocPhanMainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hocphan);
+        setContentView(R.layout.duc_activity_hocphan);
 
         relativeLayout=findViewById(R.id.relativel_layout);
         edtSearch = findViewById(R.id.edtsearch);

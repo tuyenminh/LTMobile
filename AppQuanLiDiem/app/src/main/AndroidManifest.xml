@@ -48,9 +48,9 @@
 
         <!-- TKB -->
 
-        <activity android:name=".tkb.settime.SetTimeActivity" />
-        <activity android:name=".tkb.editcourse.EditActivity" />
-        <activity android:name=".tkb.coursedetails.CourseDetailsActivity" />
+        <activity android:name=".phat_tkb.settime.SetTimeActivity" />
+        <activity android:name=".phat_tkb.editcourse.EditActivity" />
+        <activity android:name=".phat_tkb.coursedetails.CourseDetailsActivity" />
         <activity
             android:name=".ThoiKhoaBieuMainActivity"
             android:theme="@style/AppTheme.NoActionBar"
@@ -92,7 +92,7 @@
         </activity>
 
         <activity
-            android:name=".ThemLopActivity"
+            android:name=".ThemHocPhanActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -102,7 +102,7 @@
         </activity>
 
         <activity
-            android:name=".DanhSachLopActivity"
+            android:name=".DanhSachHocPhanActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

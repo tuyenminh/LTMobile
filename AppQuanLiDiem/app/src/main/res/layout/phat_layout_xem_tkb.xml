@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/course_details_bg_layout"
+    android:layout_width="match_parent"
+    android:background="@drawable/backdound_app"
+    android:layout_height="match_parent"
+    tools:context=".phat_tkb.coursedetails.CourseDetailsActivity">
+
+    <ImageView
+        android:id="@+id/mp_iv_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="50dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/mp_cv_course_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:alpha="0.7"
+            android:background="@color/colorWhite"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="3dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/backdround_layout"
+                android:padding="20dp"
+
+                >
+
+                <TextView
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="30dp"
+                    android:textColor="#0F0F0F"
+                    android:layout_marginBottom="40dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Xem Lịch" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-20dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/mp_tv_class_name"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/course_name" />
+
+                    <Button
+                        android:id="@+id/mp_btn_edit"
+                        android:layout_width="100dp"
+                        android:layout_height="34dp"
+                        android:textStyle="bold"
+
+                        android:textColor="#FFFFFF"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/border_btn_blue"
+                        android:text="@string/edit_course_btn" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/mp_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/shape_line"
+                    android:layerType="software" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:layout_marginEnd="5dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="@string/classroom"
+                        android:textSize="@dimen/course_details_text_size" />
+
+                    <TextView
+                        android:id="@+id/mp_tv_class_room"
+                        android:layout_width="0dp"
+                        android:layout_height="25dp"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/course_details_text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:layout_marginEnd="5dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="@string/week_of_term"
+                        android:textSize="@dimen/course_details_text_size" />
+
+                    <TextView
+                        android:id="@+id/mp_tv_week_of_term"
+                        android:layout_width="0dp"
+                        android:layout_height="25dp"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/course_details_text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:layout_marginEnd="5dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="@string/classLength"
+                        android:textSize="@dimen/course_details_text_size" />
+
+                    <TextView
+                        android:id="@+id/mp_tv_class_num"
+                        android:layout_width="0dp"
+                        android:layout_height="25dp"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/course_details_text_size" />
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:layout_marginEnd="5dp"
+                        android:text="@string/teacher"
+                        android:textSize="@dimen/course_details_text_size" />
+
+                    <TextView
+                        android:id="@+id/mp_tv_ghi_chu"
+                        android:layout_width="0dp"
+                        android:layout_height="25dp"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/course_details_text_size" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</FrameLayout>

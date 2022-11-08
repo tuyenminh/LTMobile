@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import android.annotation.SuppressLint;
 import android.widget.Button;
 import android.widget.EditText;
-import com.example.appquanlidiem.bieudo_database.database;
+import com.example.appquanlidiem.phat_bieudo_database.database;
 import com.github.mikephil.charting.components.XAxis;
 import com.github.mikephil.charting.components.YAxis;
 import com.github.mikephil.charting.interfaces.datasets.IBarDataSet;
@@ -28,22 +28,7 @@ import java.text.SimpleDateFormat;
 
 public class ThongKeMainActivity extends AppCompatActivity {
 
-
-    private int mon1 = 7;
-    private int mon2 = 7;
-    private int mon3 = 7;
-    private int mon4 = 7;
-    private int mon5 = 7;
-
-    private int tcmon1 = 3;
-    private int tcmon2 = 3;
-    private int tcmon3 = 3;
-    private int tcmon4 = 3;
-    private int tcmon5 = 3;
-    private int tongtc = 0;
-
-    EditText kttbc, kttbm;
-
+    EditText kttbc;
     private BarChart barChart;
     private Button button;
     private EditText editText;
@@ -53,12 +38,10 @@ public class ThongKeMainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_thongke);
+        setContentView(R.layout.phat_activity_thongke);
 
-        // Tinh diem tb
 
         kttbc = (EditText) findViewById(R.id.mp_kqtbc);
-        kttbm = (EditText) findViewById(R.id.mp_kqtbm);
 
         // Barchart
 
@@ -72,33 +55,36 @@ public class ThongKeMainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                // Tinh tb
-
                 String mdiem1;
                 mdiem1 = editText.getText().toString();
-                Double d1, tb1, tb2;
+                Double d1,  tb2;
+                String m1 = "XH024, XH025, CT205";
+                String m2 = "CT173";
+                String m3 = "CT190";
+                String m4 = "CT188, CT177, CT291";
+                String m5 = "CT263, CT175 ";
+                String m6 = "TN001";
+                String m7 = "TN002, CT281";
+                String m8 = "CT274, CT252";
                 d1 = Double.parseDouble(mdiem1);
-                tongtc = 3 + tcmon1 + tcmon2 + tcmon3 + tcmon4;
-                tb2= ((d1*3)+ (mon1*tcmon1) + (mon2*tcmon2) + (mon3*tcmon3) + (mon4*tcmon4))/tongtc;
+                tb2= d1;
                 if(tb2 < 4) {
-                    kttbc.setText(tb2 + " ( F )");
+                    kttbc.setText(tb2 + " ( F ) : " + m1);
                 }else if ( tb2 > 4 && tb2 < 4.9) {
-                    kttbc.setText(tb2 + " ( D )");
+                    kttbc.setText(tb2 + " ( D ) : " + m2);
                 }else if ( tb2 > 4.8 && tb2 < 5.6) {
-                    kttbc.setText(tb2 + " ( D+ )");
+                    kttbc.setText(tb2 + " ( D+ ) : " + m3);
                 }else if (tb2 > 5.4 && tb2 < 6.5){
-                    kttbc.setText(tb2 + " ( C )");
+                    kttbc.setText(tb2 + " ( C ) : " +m4);
                 }else if (tb2 > 6.4 && tb2 < 7.0){
-                    kttbc.setText(tb2 + " ( C+ )");
+                    kttbc.setText(tb2 + " ( C+ ) : " + m5);
                 }else if (tb2 > 6.9 && tb2 < 8.0){
-                    kttbc.setText(tb2 + " ( B )");
+                    kttbc.setText(tb2 + " ( B ) : " + m6);
                 }else if (tb2 > 7.9 && tb2 < 9.0){
-                    kttbc.setText(tb2 + " ( B+ )");
+                    kttbc.setText(tb2 + " ( B+ ) : " + m7);
                 }else if (tb2 > 8.9 && tb2 < 11){
-                    kttbc.setText(tb2 + " ( A )");
+                    kttbc.setText(tb2 + " ( A ) : " + m8);
                 }
-                tb1 = d1;
-                kttbm.setText(String.valueOf(tb1));
 
                 // Barchart
                 SaveToDatabase();
@@ -172,7 +158,7 @@ public class ThongKeMainActivity extends AppCompatActivity {
           yVals.add(new BarEntry(6, 10));
       }
 
-        BarDataSet dataSet = new BarDataSet(yVals, "           CT190       CT175        CT177        CT188       CT299        CT274");
+        BarDataSet dataSet = new BarDataSet(yVals, "Định danh");
        dataSet.setColors(ColorTemplate.MATERIAL_COLORS);
         dataSet.setValueTextColor(Color.BLACK);
       dataSet.setValueTextSize(16f);

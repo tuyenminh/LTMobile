@@ -9,6 +9,6 @@ public class ThongTinMainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_thongtin);
+        setContentView(R.layout.tuyen_activity_thongtin);
     }
 }

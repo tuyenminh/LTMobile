@@ -37,7 +37,7 @@ public class DiemDuKienMainActivity extends AppCompatActivity implements ChoiceD
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_diemdukien);
+        setContentView(R.layout.tuyen_activity_diemdukien);
         diem1 = (EditText) findViewById(R.id.diemdukien);
         kq = (Button) findViewById(R.id.mt_kq1);
         kttbc = (EditText) findViewById(R.id.mt_kqtbc);

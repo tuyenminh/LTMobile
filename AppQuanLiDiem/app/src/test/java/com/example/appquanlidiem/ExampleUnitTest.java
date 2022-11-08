@@ -4,7 +4,7 @@ package com.example.appquanlidiem;
 // Thời khóa biểu
 // Thời khóa biểu
 
-import com.example.appquanlidiem.tkb_config.Utils;
+import com.example.appquanlidiem.phat_tkb_database.Utils;
 import org.junit.Test;
 import java.util.Calendar;
 import java.util.Date;

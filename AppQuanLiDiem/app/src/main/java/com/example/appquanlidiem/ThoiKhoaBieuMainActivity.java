@@ -34,15 +34,15 @@ import androidx.core.content.ContextCompat;
 import com.bigkoo.pickerview.builder.OptionsPickerBuilder;
 import com.bigkoo.pickerview.view.OptionsPickerView;
 import com.google.gson.reflect.TypeToken;
-import com.example.appquanlidiem.tkb_config.Course;
-import com.example.appquanlidiem.tkb_config.Time;
-import com.example.appquanlidiem.tkb_config.OneClickListener;
-import com.example.appquanlidiem.tkb.coursedetails.CourseDetailsActivity;
-import com.example.appquanlidiem.tkb.editcourse.EditActivity;
-import com.example.appquanlidiem.tkb.settime.SetTimeActivity;
-import com.example.appquanlidiem.tkb_config.Config;
-import com.example.appquanlidiem.tkb_config.Database_tkb;
-import com.example.appquanlidiem.tkb_config.Utils;
+import com.example.appquanlidiem.phat_tkb_database.Course;
+import com.example.appquanlidiem.phat_tkb_database.Time;
+import com.example.appquanlidiem.phat_tkb_database.OneClickListener;
+import com.example.appquanlidiem.phat_tkb.coursedetails.CourseDetailsActivity;
+import com.example.appquanlidiem.phat_tkb.editcourse.EditActivity;
+import com.example.appquanlidiem.phat_tkb.settime.SetTimeActivity;
+import com.example.appquanlidiem.phat_tkb_database.Config;
+import com.example.appquanlidiem.phat_tkb_database.Database_tkb;
+import com.example.appquanlidiem.phat_tkb_database.Utils;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -86,7 +86,7 @@ public class ThoiKhoaBieuMainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_thoikhoabieu);
+        setContentView(R.layout.phat_activity_thoikhoabieu);
         getWritePermission();
         mWeekOfTermTextView = findViewById(R.id.mp_tv_week_of_term);
         mAddImgBtn = findViewById(R.id.mp_img_btn_add);
@@ -123,7 +123,7 @@ public class ThoiKhoaBieuMainActivity extends AppCompatActivity {
 
         int week = Utils.getWeekOfDay();
         TextView weekTv = findViewById(weekTextView[week - 1]);
-        weekTv.setBackground(ContextCompat.getDrawable(this, R.color.bg_color_gray));
+        weekTv.setBackground(ContextCompat.getDrawable(this, R.color.day_of_week_color));
     }
 
     private void updateCalendarEvent() {
@@ -236,7 +236,7 @@ public class ThoiKhoaBieuMainActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main_tkb, menu);
+        getMenuInflater().inflate(R.menu.phat_menumain_tkb, menu);
         return true;
     }
 

@@ -26,7 +26,7 @@ public class DiemCaiThienMainActivity extends AppCompatActivity implements Choic
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_diemcaithien);
+        setContentView(R.layout.tuyen_activity_diemcaithien);
         kq = (Button) findViewById(R.id.mt_kq2);
         slmh = (TextView) findViewById(R.id.mt_chonmh2);
         tbhk = (EditText) findViewById(R.id.mt_tbtk);

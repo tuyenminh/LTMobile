@@ -3,7 +3,6 @@ package com.example.appquanlidiem;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -27,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.tuyen_activity_main);
 
         t2 = (CardView) findViewById(R.id.d2);
         t3 = (CardView) findViewById(R.id.d3);
@@ -75,7 +74,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Nhập tên của bạn");
-        View view = getLayoutInflater().inflate(R.layout.dialogtt_layout, null);
+        View view = getLayoutInflater().inflate(R.layout.tuyen_layout_dialogtt, null);
         EditText tennhap;
         tennhap = view.findViewById(R.id.tennhapdialog);
         Button submit = view.findViewById(R.id.submit);
@@ -101,7 +100,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         Intent i;
         switch (v.getId()){
-            case R.id.d2 : i = new Intent(this,DanhSachLopActivity.class); startActivity(i); break;
+            case R.id.d2 : i = new Intent(this,DanhSachHocPhanActivity.class); startActivity(i); break;
             case R.id.d3 : i = new Intent(this,DiemDuKienMainActivity.class); startActivity(i); break;
             case R.id.d4 : i = new Intent(this,ThoiKhoaBieuMainActivity.class); startActivity(i); break;
             case R.id.d6 : i = new Intent(this,ThongKeMainActivity.class); startActivity(i); break;

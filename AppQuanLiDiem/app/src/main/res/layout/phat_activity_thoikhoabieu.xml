@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Thời Khóa Biểu-->
+<!--Thời Khóa Biểu-->
+<!--Thời Khóa Biểu-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ThoiKhoaBieuMainActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/mp_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/AppTheme">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/mp_tv_week_of_term"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Tuần 1"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/mp_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/mp_tv_week_of_term"
+                app:layout_constraintStart_toStartOf="@+id/mp_tv_week_of_term"
+                app:layout_constraintTop_toBottomOf="@+id/mp_tv_week_of_term" />
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/mp_iv_bg_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/header_week_height"
+                android:background="@drawable/backdound_app"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/mp_tv_month"
+                    android:layout_width="@dimen/table_header_class_width"
+                    android:layout_height="match_parent"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/mp_tv_mon"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/header_text_color"
+                    android:text="@string/mon" />
+
+                <TextView
+                    android:id="@+id/mp_tv_tues"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/header_text_color"
+                    android:text="@string/tues" />
+
+                <TextView
+                    android:id="@+id/mp_tv_wed"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/header_text_color"
+                    android:text="@string/wed" />
+
+                <TextView
+                    android:id="@+id/mp_tv_thur"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/header_text_color"
+                    android:text="@string/thur" />
+
+                <TextView
+                    android:id="@+id/mp_tv_fri"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/header_text_color"
+                    android:text="@string/fri" />
+
+                <TextView
+                    android:id="@+id/mp_tv_sat"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/header_text_color"
+                    android:text="@string/sat" />
+
+                <TextView
+                    android:id="@+id/mp_tv_sun"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/header_text_color"
+                    android:text="@string/sun" />
+
+            </LinearLayout>
+
+            <ScrollView
+                android:id="@+id/mp_scroll_view"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:id="@+id/mp_ll_header_class_num"
+                        android:layout_width="@dimen/table_header_class_width"
+                        android:layout_height="@dimen/timetable_height"
+                        android:background="#b5e0ff"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:id="@+id/mp_fl_timetable"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/timetable_height"
+                        android:layout_weight="1">
+
+                        <ImageButton
+                            android:id="@+id/mp_img_btn_add"
+                            android:layout_width="50dp"
+                            android:layout_height="@dimen/cell_height"
+                            android:scaleType="centerInside"
+                            android:src="@mipmap/content_new"
+                            android:visibility="gone" />
+
+                    </FrameLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>
