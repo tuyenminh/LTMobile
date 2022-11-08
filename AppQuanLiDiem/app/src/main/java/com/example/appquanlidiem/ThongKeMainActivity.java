@@ -75,7 +75,7 @@ public class ThongKeMainActivity extends AppCompatActivity {
                 }else if ( tb2 > 4.8 && tb2 < 5.6) {
                     kttbc.setText(tb2 + " ( D+ ) : " + m3);
                 }else if (tb2 > 5.4 && tb2 < 6.5){
-                    kttbc.setText(tb2 + " ( C ) : " +m4);
+                    kttbc.setText(tb2 + " ( C ) : " + m4);
                 }else if (tb2 > 6.4 && tb2 < 7.0){
                     kttbc.setText(tb2 + " ( C+ ) : " + m5);
                 }else if (tb2 > 6.9 && tb2 < 8.0){
