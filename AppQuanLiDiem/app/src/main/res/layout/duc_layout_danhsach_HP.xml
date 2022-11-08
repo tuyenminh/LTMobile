@@ -8,7 +8,7 @@
     android:id="@+id/relativel_layout"
     tools:context=".DanhSachHocPhanActivity">
     <include
-        layout="@layout/duc_layout_toolbar_dahsach_hp"
+        layout="@layout/duc_layout_toolbar_danhsach_hp"
         android:id="@+id/toolbar"/>
 
     <EditText
