@@ -27,6 +27,38 @@ public class DBHeplper extends SQLiteOpenHelper {
         db.execSQL(sql);
         sql = " INSERT INTO LOP VALUES ('CT225','Co So du lieu phan tan','3', '4')";
         db.execSQL(sql);
+        sql = " INSERT INTO LOP VALUES ('CT113','Lap Trinh Ung Dung','3', '8')";
+        db.execSQL(sql);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         sql = " CREATE TABLE SINHVIEN(maSv TEXT PRIMARY KEY, tenSV TEXT ," + " email TEXT ,hinh TEXT, maLop TEXT REFERENCES LOP(maLop))";
         db.execSQL(sql);

@@ -13,6 +13,7 @@
     app:cardElevation="7dp"
     android:layout_marginTop="70dp"
     tools:context=".ThemHocPhanActivity">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -36,14 +37,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/backdroung_edt"
-            android:padding="12dp"
             android:ems="10"
             android:hint="Nhập mã học phần"
             android:inputType="textPersonName"
+            android:padding="12dp"
             android:textColorHint="#009688" />
 
         <EditText
@@ -54,10 +55,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/backdroung_edt"
-            android:padding="12dp"
             android:ems="10"
             android:hint="Nhập tên học phần"
             android:inputType="textPersonName"
+            android:padding="12dp"
             android:textColorHint="#009688" />
 
         <EditText
@@ -68,10 +69,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/backdroung_edt"
-            android:padding="12dp"
             android:ems="10"
             android:hint="Nhập tín chỉ"
             android:inputType="textPersonName"
+            android:padding="12dp"
             android:textColorHint="#009688" />
 
         <EditText
@@ -82,17 +83,17 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/backdroung_edt"
-            android:padding="12dp"
             android:ems="10"
             android:hint="Nhập mục tiêu"
             android:inputType="textPersonName"
+            android:padding="12dp"
             android:textColorHint="#009688" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="1dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="30dp"
             android:orientation="horizontal"
@@ -123,4 +124,5 @@
         </LinearLayout>
 
     </LinearLayout>
+
 </LinearLayout>
